@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Hate Downloading PDFs!",
+    "version": "1.0",
+    "description": "Instead of having to download a PDF file every single time, and then filling up your downloads folder with garbage, this extension will download the file to the memory, and it would never take up space on your disk!",
+    "background": {
+        "service_worker": "./js/background.js"
+    },
+    "permissions": [
+        "tabs",
+        "downloads"
+    ]
+}
