@@ -9,5 +9,9 @@
     "permissions": [
         "tabs",
         "downloads"
+    ],
+    "host_permissions": [
+        "https://*/*.pdf",
+        "http://*/*.pdf"
     ]
 }
