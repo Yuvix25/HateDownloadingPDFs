@@ -11,7 +11,7 @@
         "downloads"
     ],
     "host_permissions": [
-        "https://*/*.pdf",
-        "http://*/*.pdf"
+        "https://*/*",
+        "http://*/*"
     ]
 }
